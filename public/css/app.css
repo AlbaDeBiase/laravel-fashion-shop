@@ -5,9 +5,64 @@
 .navbar ul li {
   list-style-type: none;
   display: inline;
+  background-color: pink;
+  padding: 10px;
+  border-radius: 1px;
 }
 
 .navbar ul li a {
   text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+  color: black;
+}
+
+.db-dress ul :first-child {
+  padding-left: 0px;
+}
+
+.db-dress ul li {
+  list-style-type: none;
+  font-size: 20px;
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+
+.db-dress ul li p {
+  display: inline-block;
+  padding-left: 40px;
+}
+
+.nomi_tabella ul {
+  display: inline-block;
+  border-bottom: 1px solid black;
+}
+
+.nomi_tabella ul :first-child {
+  padding-left: 0px;
+}
+
+.nomi_tabella ul li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px;
+  color: red;
+  padding-left: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container,
+.header {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
 }
 

@@ -1,11 +1,19 @@
 .navbar{
     ul{
         display:inline;
+
         li{
             list-style-type: none;
             display:inline;
+            background-color: pink;
+            padding: 10px;
+            border-radius: 1px;
+
             a{
                 text-decoration: none;
+                font-size: 18px;
+                font-weight: 800;
+                color:black;
             }
         }
     }

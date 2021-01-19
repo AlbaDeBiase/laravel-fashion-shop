@@ -12,7 +12,7 @@ class HomeController extends Controller
         // dd($all_dresses);
 
         $data =[
-            'testo' => 'ciao',
+            'testo' => 'Tabella dresses',
             'dresses' => $all_dresses
         ];
         return view('home',$data);
